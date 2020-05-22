@@ -1,6 +1,6 @@
 # 中国教师信息管理系统批量录入
 - 该项目旨在帮助个人信息较多的老师通过EXCEL 批量录入信息.
-
+- 浙江省的登录地址 `http://jiaoshi.zjedu.gov.cn:8082/selfservice/index`
 ## 使用说明
 
 

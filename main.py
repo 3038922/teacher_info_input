@@ -38,8 +38,9 @@ def main(argv=None):
 
     # test
     ele = driver.find_element_by_css_selector(
-        '#JZGZDXSCJJSHJXX_addBtn [class="ui-button-text"]')
-    ele.click()
+        '#JZGZDXSCJJSHJXX_addBtn span[class="ui-button-text"]')
+    print(ele.text)
+    # ele.click()
     # find excel
     input()
     # input data
