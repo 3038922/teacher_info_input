@@ -9,7 +9,8 @@
 1. 安装python3.8 
     - [Download](https://github.com/3038922/new_century_robotics/releases/download/v1.0/python-3.8.1-amd64.exe)
 
-
+2. 安装需要使用的库
+- `pip install openpyxl selenium` 
 
 
 ## 自用命令记录
