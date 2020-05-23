@@ -40,11 +40,16 @@ def main(argv=None):
     # 进入#document元素
     driver.switch_to_frame('iframeObj')
     # 根据excel内容定位
-    ele = driver.find_element_by_css_selector(
-        '#JZGZDXSCJJSHJXX_addBtn span[class="ui-button-text"]')
-    print(ele.text)
+    ele = driver.find_element_by_xpath(
+        '//*[@id="JZGZDXSCJJSHJXX_addBtn"]/span[2]')
     ele.click()
-
+    # 奖励名称
+    ele = driver.find_element_by_xpath('//*[@id="JZGZDXSCJJSHJXX_JLMC"]')
+    ele.send_keys("asdfasfd")
+    # 本人角色
+    select = Select(driver.find_elements_by_css_selector(
+        '#JZGZDXSCJJSHJXX_JSZBRJS_span'))
+    select.select_by_index(1)
     input()
     # input data
 

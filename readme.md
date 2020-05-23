@@ -2,7 +2,8 @@
 - 该项目旨在帮助个人信息较多的老师通过EXCEL 批量录入信息.
 - 浙江省的登录地址 `http://jiaoshi.zjedu.gov.cn:8082/selfservice/index`
 ## 使用说明
-
+1. 必须安装chrome 
+2. 下载对应你chrome版本号的chromedriver 我项目里的默认版本号是`83.0.4103.39` [Download](http://npm.taobao.org/mirrors/chromedriver/)
 
 ## 开发环境安装
 - 如果要协助开发程序请执行这步,只是使用不需要.
