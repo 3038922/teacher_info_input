@@ -35,13 +35,16 @@ def main(argv=None):
     ele.send_keys(verificationCode)
     ele = driver.find_element_by_css_selector('input[name = "login"]')
     ele.click()
+    # find excel
 
-    # test
+    # 进入#document元素
+    driver.switch_to_frame('iframeObj')
+    # 根据excel内容定位
     ele = driver.find_element_by_css_selector(
         '#JZGZDXSCJJSHJXX_addBtn span[class="ui-button-text"]')
     print(ele.text)
-    # ele.click()
-    # find excel
+    ele.click()
+
     input()
     # input data
 
